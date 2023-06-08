@@ -1,0 +1,24 @@
+.cont{
+    background-color: #beb1b1;
+    padding: 10px;
+   width: 1000px;
+   max-height: 1000px;
+    display: grid;
+    justify-content: center;
+    align-items:center ;
+    gap: 10px;
+    
+    grid-template-columns: repeat(3, 200px);
+    
+    
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: steelblue;
+    border: 1px skyblue solid;
+}
+.item:nth-of-type(2){
+   grid-column: 1/2;
+   
+}
